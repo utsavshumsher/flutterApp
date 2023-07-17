@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       fontFamily: GoogleFonts.lato().fontFamily,
       primaryTextTheme:GoogleFonts.latoTextTheme()
       ),
+      debugShowCheckedModeBanner: false,
       
       darkTheme: ThemeData(primarySwatch: Colors.green),
       initialRoute: "/",
